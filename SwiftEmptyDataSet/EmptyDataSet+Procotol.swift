@@ -13,7 +13,7 @@ import UIKit
  The object that acts as the data source of the empty datasets.
  @discussion The data source must adopt the SwiftEmptyDataSetDataSource protocol. The data source is not retained. All data source methods are optional.
  */
-@objc protocol SwiftEmptyDataSetDataSource: NSObjectProtocol {
+@objc public protocol SwiftEmptyDataSetDataSource: NSObjectProtocol {
     
     
     /// Asks the data source for the image of the dataset.
@@ -126,7 +126,7 @@ import UIKit
  
  @discussion All delegate methods are optional. Use this delegate for receiving action callbacks.
  */
-@objc protocol SwiftEmptyDataSetDelegate: NSObjectProtocol {
+@objc public protocol SwiftEmptyDataSetDelegate: NSObjectProtocol {
     
     /// Asks the delegate to know if the empty dataset should fade in when displayed. Default is YES.
     ///

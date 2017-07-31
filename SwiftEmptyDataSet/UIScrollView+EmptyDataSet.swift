@@ -43,7 +43,7 @@ extension UIScrollView {
     }
     
     /// The empty datasets data source.
-    @IBOutlet weak var emptyDataSource: SwiftEmptyDataSetDataSource? {
+    @IBOutlet public weak var emptyDataSource: SwiftEmptyDataSetDataSource? {
         get {
             return objc_getAssociatedObject(self, &associatedKey.emptyDataSourceKey) as? SwiftEmptyDataSetDataSource
         }
@@ -66,7 +66,7 @@ extension UIScrollView {
     }
     
     /// The empty datasets delegate.
-    @IBOutlet weak var emptyDelegate: SwiftEmptyDataSetDelegate? {
+    @IBOutlet public weak var emptyDelegate: SwiftEmptyDataSetDelegate? {
         get {
             return objc_getAssociatedObject(self, &associatedKey.emptyDelegateKey) as? SwiftEmptyDataSetDelegate
         }
