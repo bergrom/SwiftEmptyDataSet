@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '9.0'
 s.name = "SwiftEmptyDataSet"
-s.summary = "SwiftEmptyDataSet is swift version of the DZNEmptyDataSet.A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display."
+s.summary = "SwiftEmptyDataSet is swift version of the DZNEmptyDataSet."
 s.requires_arc = true
 
 # 2
