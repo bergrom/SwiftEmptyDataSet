@@ -17,7 +17,7 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Guo Luo" => "bergrom@iCloud.com" }
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
-# s.homepage = "https://github.com/bergrom/SwiftEmptyDataSet"
+s.homepage = "https://github.com/bergrom/SwiftEmptyDataSet"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
